@@ -6,9 +6,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class text1 {
+public class test1 {
 	public static void main (String[] args) {
-		text1 t=new text1();
+		test1 t=new test1();
 		t.test1();
 		t.test2();
 		t.test3();
