@@ -6,7 +6,7 @@ public class test2 {
 		t.test1();
 	}
     /**
-     * String对象与StringBuffer对象互相转换，测试StringBuffer类的添加、插入、删除、反转操作。
+     *  String对象与StringBuffer对象互相转换，测试StringBuffer类的添加、插入、删除、反转操作。
      */
     public void test1() {
         // String 转 StringBuffer
