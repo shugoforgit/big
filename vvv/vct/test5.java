@@ -10,9 +10,7 @@ import java.util.Scanner;
 
 public class test5 {
 
-    /**
-     * 从控制台输入一个yyyy-MM-dd（年月日）格式的日期字符串，再将这个日期加上七天，再用FormatStyle.MEDIUM格式输出这个日期。
-     */
+
     public static void test1() {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
