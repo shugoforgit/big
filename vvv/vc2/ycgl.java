@@ -1,8 +1,5 @@
 package vc2;
 
-/**
- * π§æﬂ¿‡
- */
 public class ycgl {
     public static int parseInt(String str) {
         int num = 0;
