@@ -1,21 +1,11 @@
 package apple;
 
+
+import java.util.function.Consumer;
 public class applecs {
-    private String color;
-    private double weight;
-
-    public void apple(double weight, String color) {
-        this.color = color;
-        this.weight = weight;
-    }
-    
-    
-    public String getColor() {
-        return color;
-    }
-    
-    
-    public void setColor() {
-
+    public static void consumerApple(apple[] apples, Consumer<apple> consumer) {
+        for (apple apple : apples) {
+            consumer.accept(apple);
+        }
     }
 }
